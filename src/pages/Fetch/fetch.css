@@ -1,0 +1,27 @@
+.tbody{
+    background-color:#351c15;
+}
+.btn{
+    background-color:#351c15;
+    color:white;
+}
+body{
+    width:100%
+}
+@media (min-device-width:1080px) and (max-device-width:2000px){
+    .tab{
+        width:2000px !important;
+        transform:translate(-260px,0);
+    }
+}
+@media screen and (max-width:2000px){
+    .tab{
+        width:3000px;
+        margin-left:200px;
+    }
+}
+@media only screen and (min-width: 960px) {
+    .tab{
+        width:500px;
+    }
+}

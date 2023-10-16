@@ -1,0 +1,12 @@
+.foot{
+    background-color:#351c15;
+}
+
+@media screen and (min-device-width: 400px) and (max-device-width: 760px){
+    .foot{
+        width:full;
+        position:fixed;
+        display:flex;
+        justify-content:base-line;
+    }
+}
